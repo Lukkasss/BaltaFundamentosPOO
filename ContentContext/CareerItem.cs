@@ -1,3 +1,5 @@
+using BaltaFundamentosPOO.NotificationContext;
+
 namespace BaltaFundamentosPOO.ContentContext;
 
 public class CareerItem : Base
@@ -10,8 +12,9 @@ public class CareerItem : Base
     public CareerItem(int order, string title, string description, Course course)
     {
         if (course is null)
-            throw new System.Exception("O curso não pode ser nulo");
-                Order = order;
+            AddNotification(new Notification("Course", "O curso não pode ser nulo"));
+        
+        Order = order;
         Title = title;
         Description = description;
         Course = course;
