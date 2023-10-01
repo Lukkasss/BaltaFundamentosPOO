@@ -1,6 +1,6 @@
 namespace BaltaFundamentosPOO.ContentContext;
 
-public class CareerItem
+public class CareerItem : Base
 {
     public int Order { get; set; }
     public string Title { get; set; }
