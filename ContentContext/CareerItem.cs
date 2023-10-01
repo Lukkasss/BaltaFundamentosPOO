@@ -9,7 +9,9 @@ public class CareerItem
 
     public CareerItem(int order, string title, string description, Course course)
     {
-        Order = order;
+        if (course is null)
+            throw new System.Exception("O curso não pode ser nulo");
+                Order = order;
         Title = title;
         Description = description;
         Course = course;
