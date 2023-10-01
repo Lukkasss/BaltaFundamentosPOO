@@ -1,4 +1,5 @@
 using BaltaFundamentosPOO.ContentContext.Enums;
+using BaltaFundamentosPOO.SharedContext;
 
 namespace BaltaFundamentosPOO.ContentContext;
 

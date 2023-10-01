@@ -1,6 +1,6 @@
 using BaltaFundamentosPOO.NotificationContext;
 
-namespace BaltaFundamentosPOO.ContentContext;
+namespace BaltaFundamentosPOO.SharedContext;
 
 public abstract class Base : Notifiable
 {

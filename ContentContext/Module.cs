@@ -1,3 +1,5 @@
+using BaltaFundamentosPOO.SharedContext;
+
 namespace BaltaFundamentosPOO.ContentContext;
 
 public class Module : Base

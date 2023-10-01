@@ -1,4 +1,5 @@
 using BaltaFundamentosPOO.NotificationContext;
+using BaltaFundamentosPOO.SharedContext;
 
 namespace BaltaFundamentosPOO.ContentContext;
 
