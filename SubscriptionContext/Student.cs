@@ -9,4 +9,9 @@ public class Student : Base
     public User User { get; set; }
     public IList<Subscription> Subscriptions { get; set; }
     public bool IsPremium => Subscriptions.Any(x => !x.IsInactive);
+
+    public Student()
+    {
+        Subscriptions = new List<Subscription>();
+    }
 }
